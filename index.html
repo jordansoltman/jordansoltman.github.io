@@ -1,1 +1,33 @@
-This is a test!
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            corePlugins: {
+                preflight: true
+            }
+        }
+    </script>
+</head>
+
+<body style="background-color: rgb(251, 251, 251)" class="font-serif">
+    <div class="flex items-center justify-items-center flex-col p-8">
+        <div class="max-w-lg bg-white shadow-lg p-6 rounded-lg mt-10 text-slate-600">
+            <h1 class="text-3xl mb-4">
+                Jordan Soltman
+            </h1>
+            <p class="mb-5">
+                UX Designer and Software Engineer specializing in prototype development and idea validation. Creator of the <a class="italic" href="https://www.ferryfriend.com">FerryFriend app</a>.
+            </p>
+            <p>
+                Contact <a href="mailto:me@jordansoltman.com">me@jordansoltman.com</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
